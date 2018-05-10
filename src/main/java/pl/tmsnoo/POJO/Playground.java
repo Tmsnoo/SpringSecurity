@@ -16,7 +16,7 @@ public class Playground {
 		for (String tab : table) {
 			System.out.println(tab);
 		}
-		Arrays.sort(table, (second, first) -> Integer.compare(first.length(), second.length()));
+		Arrays.sort(table, (first, second) -> Integer.compare(first.length(), second.length()));
 		for (int i = 0; i < table.length; i++) {
 			System.out.println("'" + table[i]);
 			System.out.println();
@@ -37,17 +37,13 @@ public class Playground {
 	boolean[] primes = new boolean[range.size()];
 	
 	
-	public void fillSieve() {
-		Arrays.fill(primes, true);
-	    range.forEach((number)->
-
-	{
-		if(number -> {
-			for(int i= 0 ; i < range.size() ; i ++) {
-				
-			}
-		}
-	}
-	}
+//	public void fillSieve() {
+//		Arrays.fill(primes, true);
+//	    range.forEach((number)->	{ System.out.println()
+//	    	
+//	    }
+//
+//	
+//	}
 }
 
