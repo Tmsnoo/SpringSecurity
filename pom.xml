@@ -5,4 +5,23 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>SpringSecurity</name>
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <spring-framework.version>4.3.7.RELEASE
+    </spring-framework.version>
+</properties>
+<dependencies>
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+        <version>${spring-framework.version}</version>
+    </dependency>
+</dependencies>
+  
+  
+  
+  
+  
+  
 </project>
